@@ -5,6 +5,7 @@ function scrGetUpDownBox() {
 	if getUpDownBoxButton and !isBoxInHands {
 		boxInstance = instance_place(nextCellXCenter, nextCellYCenter, obBox)
 		if instance_exists(boxInstance) {
+			boxInstance.beenHeld = true
 			instance_deactivate_object(boxInstance)
 			isBoxInHands = true
 			return

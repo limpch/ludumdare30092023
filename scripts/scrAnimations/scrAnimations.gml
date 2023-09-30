@@ -2,6 +2,8 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 
 function playerAnimation() {
+	depth = -y
+	
 	if abs(xSpeed) == 0 and abs(ySpeed) == 0 and !isBoxInHands {
 		if isBoxInHands sprite_index = spPlayerRunWithBox
 		else sprite_index = spPlayerStay
