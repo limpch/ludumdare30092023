@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 depth = -y
-sprite_index = 1
+image_index = 0
 
 if recentlyCreated {
 	timeSinceCreation += 0.05
