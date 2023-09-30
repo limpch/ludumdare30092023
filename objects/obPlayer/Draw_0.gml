@@ -1,6 +1,10 @@
 draw_self()
 
-draw_set_color(c_black)
-//draw_circle(x,y, 2, 0)
+if isBoxInHands {
+	draw_sprite(spBox, 1, x, y - boxAnimFrame)
+}
 
-draw_rectangle(currentCellX, currentCellY, currentCellX + 16, currentCellY+16, 0)
+draw_set_alpha(0.3)
+draw_set_color(c_red)
+draw_rectangle(nextCellX, nextCellY, nextCellX + 16, nextCellY + 16, 0)
+draw_set_alpha(1)

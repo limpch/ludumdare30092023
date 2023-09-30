@@ -21,6 +21,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"scrBoxButtonsBinds","order":4,"path":"scripts/scrBoxButtonsBinds/scrBoxButtonsBinds.yy",},
     {"name":"scrAnimations","order":3,"path":"scripts/scrAnimations/scrAnimations.yy",},
     {"name":"obBox","order":3,"path":"objects/obBox/obBox.yy",},
     {"name":"spPlayerRun","order":1,"path":"sprites/spPlayerRun/spPlayerRun.yy",},
@@ -28,6 +29,8 @@
     {"name":"scrMovementVars","order":2,"path":"scripts/scrMovementVars/scrMovementVars.yy",},
     {"name":"spPlayerStay45","order":2,"path":"sprites/spPlayerStay45/spPlayerStay45.yy",},
     {"name":"scrBoxesLogicVars","order":1,"path":"scripts/scrBoxesLogicVars/scrBoxesLogicVars.yy",},
+    {"name":"scrGetUpDownBox","order":3,"path":"scripts/scrGetUpDownBox/scrGetUpDownBox.yy",},
+    {"name":"scrPushAwayFromTexture","order":4,"path":"scripts/scrPushAwayFromTexture/scrPushAwayFromTexture.yy",},
     {"name":"obBounds","order":1,"path":"objects/obBounds/obBounds.yy",},
     {"name":"spPlayerRunWithBox","order":3,"path":"sprites/spPlayerRunWithBox/spPlayerRunWithBox.yy",},
     {"name":"scrSetPlayerSpeed","order":3,"path":"scripts/scrSetPlayerSpeed/scrSetPlayerSpeed.yy",},

@@ -9,4 +9,6 @@ function movementVars() {
 	yFrac = 0
 	
 	playerDirectionAngle = 0
+	
+	isStack = false
 }

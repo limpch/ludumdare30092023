@@ -1,4 +1,5 @@
 movementBinds()
+scrBoxButtonsBinds()
 
 scrSetPlayerSpeed()
 
@@ -6,4 +7,7 @@ moveBySpeed()
 playerAnimation()
 
 scrCellPlayerIn()
-scrSelectClosestGridCell()
+scrSelectNextCell()
+scrGetUpDownBox()
+
+scrPushAwayFromTexture()
