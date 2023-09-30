@@ -4,7 +4,7 @@
 function playerAnimation() {
 	depth = -y
 	
-	if abs(xSpeed) == 0 and abs(ySpeed) == 0 and !isBoxInHands {
+	if abs(xSpeed) == 0 and abs(ySpeed) == 0 {
 		if isBoxInHands sprite_index = spPlayerRunWithBox
 		else sprite_index = spPlayerStay
 	}
