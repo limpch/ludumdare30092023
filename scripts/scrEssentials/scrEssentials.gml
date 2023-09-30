@@ -6,3 +6,6 @@ function curvesAnimate(curve, channel, time) {
 	return _val;
 }
 
+function hex(argument0) {
+	return (argument0 & $FF) << 16 | (argument0 & $FF00) | (argument0 & $FF0000) >> 16;
+}
