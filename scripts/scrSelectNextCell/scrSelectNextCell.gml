@@ -1,5 +1,5 @@
 function scrSelectNextCell() {
-	if abs(xSpeed) > 0 or abs(ySpeed) > 0 watchDirection = playerDirectionAngle
+	if rightButton - leftButton != 0 or downButton - topButton != 0 watchDirection = playerDirectionAngle
 	
 	switch(watchDirection) {
 		case 0: 
