@@ -29,7 +29,7 @@
     {"name":"spPlayerRun","order":1,"path":"sprites/spPlayerRun/spPlayerRun.yy",},
     {"name":"scrCellPlayerIn","order":2,"path":"scripts/scrCellPlayerIn/scrCellPlayerIn.yy",},
     {"name":"scrMovementVars","order":2,"path":"scripts/scrMovementVars/scrMovementVars.yy",},
-    {"name":"spPlayerStay45","order":2,"path":"sprites/spPlayerStay45/spPlayerStay45.yy",},
+    {"name":"spPlayerStayWithBox","order":2,"path":"sprites/spPlayerStayWithBox/spPlayerStayWithBox.yy",},
     {"name":"scrBoxesLogicVars","order":1,"path":"scripts/scrBoxesLogicVars/scrBoxesLogicVars.yy",},
     {"name":"scrBoxBinds","order":3,"path":"scripts/scrBoxBinds/scrBoxBinds.yy",},
     {"name":"acBoxCreate","order":1,"path":"animcurves/acBoxCreate/acBoxCreate.yy",},
