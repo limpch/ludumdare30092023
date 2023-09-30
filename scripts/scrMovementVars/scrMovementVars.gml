@@ -7,4 +7,6 @@ function movementVars() {
 	
 	xFrac = 0
 	yFrac = 0
+	
+	playerDirectionAngle = 0
 }

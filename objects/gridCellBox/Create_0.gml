@@ -1,1 +1,0 @@
-isClosest = false
