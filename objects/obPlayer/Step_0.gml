@@ -1,5 +1,6 @@
 movementBinds()
-scrBoxButtonsBinds()
+scrBoxBinds()
+scrBoxesLogicVars()
 
 scrSetPlayerSpeed()
 
