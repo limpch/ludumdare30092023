@@ -10,7 +10,7 @@ function moveBySpeed(){
 		}
 		
 		for(var i = 0; i < abs(xSpeed); i++) {
-			if !place_meeting(x + sign(xSpeed), y, obBounds)
+			if !place_meeting(x + sign(xSpeed), y, obBounds) or isStack
 				x += sign(xSpeed)
 			else xSpeed = 0
 		}
@@ -25,7 +25,7 @@ function moveBySpeed(){
 		}
 		
 		for(var j = 0; j < abs(ySpeed); j++) {
-			if !place_meeting(x, y + sign(ySpeed), obBounds) {
+			if !place_meeting(x, y + sign(ySpeed), obBounds) or isStack {
 				y += sign(ySpeed)
 			} else ySpeed = 0
 		}

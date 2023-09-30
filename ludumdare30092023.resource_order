@@ -22,6 +22,7 @@
     {"name":"Control Objects","order":7,"path":"folders/Objects/Control Objects.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"scrBoxButtonsBinds","order":4,"path":"scripts/scrBoxButtonsBinds/scrBoxButtonsBinds.yy",},
     {"name":"scrAnimations","order":3,"path":"scripts/scrAnimations/scrAnimations.yy",},
     {"name":"obShadows","order":2,"path":"objects/obShadows/obShadows.yy",},
     {"name":"obBox","order":3,"path":"objects/obBox/obBox.yy",},
@@ -31,7 +32,8 @@
     {"name":"scrMovementVars","order":2,"path":"scripts/scrMovementVars/scrMovementVars.yy",},
     {"name":"spPlayerStay45","order":2,"path":"sprites/spPlayerStay45/spPlayerStay45.yy",},
     {"name":"scrBoxesLogicVars","order":1,"path":"scripts/scrBoxesLogicVars/scrBoxesLogicVars.yy",},
-    {"name":"acBoxCreate","order":1,"path":"animcurves/acBoxCreate/acBoxCreate.yy",},
+    {"name":"scrGetUpDownBox","order":3,"path":"scripts/scrGetUpDownBox/scrGetUpDownBox.yy",},
+    {"name":"scrPushAwayFromTexture","order":4,"path":"scripts/scrPushAwayFromTexture/scrPushAwayFromTexture.yy",},
     {"name":"obBounds","order":1,"path":"objects/obBounds/obBounds.yy",},
     {"name":"scrEssentials","order":5,"path":"scripts/scrEssentials/scrEssentials.yy",},
     {"name":"spShadow","order":4,"path":"sprites/spShadow/spShadow.yy",},
