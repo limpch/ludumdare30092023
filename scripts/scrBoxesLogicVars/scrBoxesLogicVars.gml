@@ -1,4 +1,4 @@
-function scrBoxesLogicVars() {
+function scrBoxButtonsBinds() {
 	isBoxInHands = false
 	boxInstance = noone
 	boxAnimFrame = 15
