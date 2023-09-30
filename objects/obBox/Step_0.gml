@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 depth = -y
+image_index = 0
 
 if recentlyCreated {
 	timeSinceCreation += 0.05

@@ -1,6 +1,7 @@
 function scrBoxesLogicVars() {
 	isBoxInHands = false
 	boxInstance = noone
+	bounds = noone
 	boxAnimFrame = 15
 	
 	cellSize = 16
