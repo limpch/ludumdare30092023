@@ -10,4 +10,10 @@ function scrBoxesLogicVars() {
 	cells = layer_get_all_elements("gridBox")
 	
 	cellsNearCoords = []
+	
+	cellSize = 16
+	currentCellX = 0
+	currentCellY = 0
+	
+	watchDirection = 0
 }

@@ -33,5 +33,5 @@
     "path": "sprites/spGridCellBox/spGridCellBox.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

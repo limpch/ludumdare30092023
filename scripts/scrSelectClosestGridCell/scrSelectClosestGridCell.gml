@@ -5,7 +5,7 @@ function scrSelectClosestGridCell() {
 		for(var i = 1; i < array_length(cellsNearCoords); i++) {
 			var nearCellCoords = cellsNearCoords[i]
 			var prevNearCellCoords = cellsNearCoords[minDistanceIndex]
-			if distance_to_point(nearCellCoords.x, nearCellCoords.y) < distance_to_point(prevNearCellCoords.x, prevNearCellCoords.y)
+			if distance_to_point(nearCellCoords.x, nearCellCoords.y) > distance_to_point(prevNearCellCoords.x, prevNearCellCoords.y)
 				minDistanceIndex = i
 		}
 	}
