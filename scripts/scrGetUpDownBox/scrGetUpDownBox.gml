@@ -18,6 +18,11 @@ function scrGetUpDownBox() {
 			boxInstance.beenHeld = true
 			instance_deactivate_object(boxInstance)
 			isBoxInHands = true
+			
+			if !boxInstance.hasSticker and obScales.currentBox == -1 {
+				obGameLogic.tutorialState = STATE.SCALES
+			}
+			
 			return
 		}
 	}
@@ -28,13 +33,26 @@ function scrGetUpDownBox() {
 			var newWatchDirection = watchDirection + 90
 			watchDirection = clamp(newWatchDirection == 360 ? 0 : newWatchDirection, 0, 270) 
 		}
-			
+		
+		if getUpDownBoxButton and topButton and place_meeting(x, y - 16, obScales) {
+			if obScales.currentBox == -1 {
+				obScales.currentBox = boxInstance
+				isBoxInHands = false
+				obGameLogic.tutorialState = STATE.STICKER
+				return
+			}
+		}
+		
 		if !instance_exists(bounds) and getUpDownBoxButton {
 			instance_activate_object(boxInstance)
 			
 			boxInstance.x = nextCellXCenter
 			boxInstance.y = nextCellYCenter
 			isBoxInHands = false
+			
+			if obGameLogic.tutorialState == STATE.SCALES {
+				obGameLogic.tutorialState = STATE.NONE
+			}
 			
 			return
 		}

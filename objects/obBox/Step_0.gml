@@ -9,5 +9,4 @@ if recentlyCreated {
 	var _xMove = curvesAnimate(acBoxCreate, "x", timeSinceCreation)
 	x = xstart - _xMove * 16
 	if timeSinceCreation >= 1 recentlyCreated = false
-	show_debug_message(_xMove)
 }

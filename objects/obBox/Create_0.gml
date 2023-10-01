@@ -5,3 +5,4 @@ randomAnim = irandom(1000)
 recentlyCreated = false
 timeSinceCreation = 1
 beenHeld = false
+hasSticker = false

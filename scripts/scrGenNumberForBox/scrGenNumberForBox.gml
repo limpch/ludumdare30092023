@@ -1,5 +1,5 @@
 function scrGenNumberForBox() {
-	if getted != 24 {
+	if getted != 23 {
 		var randomNumber = random_range(0, 23)
 		
 		while numbersList[randomNumber].getted != false {

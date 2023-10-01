@@ -10,4 +10,6 @@ function scrScalesVars() {
 			getted: false
 		})
 	}
+	
+	currentBox = -1
 }
