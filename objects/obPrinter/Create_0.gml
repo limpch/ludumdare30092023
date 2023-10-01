@@ -1,5 +1,7 @@
-/// @description Insert description here
-// You can write your code in this editor
 
 image_speed = 0
 
+hasSticker = false
+creatingSticker = false
+
+animationSpeed = 60

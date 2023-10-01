@@ -10,3 +10,7 @@ if recentlyCreated {
 	x = xstart - _xMove * 16
 	if timeSinceCreation >= 1 recentlyCreated = false
 }
+
+
+if hasSticker sprite_index = spBoxWithSticker	
+else sprite_index = spBox

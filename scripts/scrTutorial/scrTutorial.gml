@@ -22,6 +22,24 @@ function tutorialManager() {
 			tutorialBox.text = -1
 			break;
 			
+		case STATE.PLAYER_STICKER:
+			tutorialBox.visible = true
+			tutorialBox.x = obPlayer.x
+			tutorialBox.y = obPlayer.y - 20
+			tutorialBox.sprite = spStickerIcon
+			tutorialBox.text = -1
+			tutorialBox.withAnim = false
+			break;
+			
+		case STATE.NUMBER:
+			tutorialBox.visible = true
+			tutorialBox.x = obPlayer.x
+			tutorialBox.y = obPlayer.y - 20
+			tutorialBox.sprite = -1
+			tutorialBox.text = "#" + obPlayer.boxInstance.number
+			tutorialBox.withAnim = false
+			break;
+			
 		default:
 			break;
 	}

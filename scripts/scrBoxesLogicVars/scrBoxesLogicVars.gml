@@ -1,5 +1,7 @@
 function scrBoxesLogicVars() {
 	isBoxInHands = false
+	isStickerInHands = false
+	
 	boxInstance = noone
 	bounds = noone
 	boxAnimFrame = 15
