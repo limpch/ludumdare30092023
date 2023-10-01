@@ -6,7 +6,9 @@ enum STATE {
 	NONE,
 	SCALES,
 	STICKER,
-	SCAN
+	SCAN,
+	PLAYER_STICKER,
+	NUMBER
 }
 
 tutorialState = STATE.NONE

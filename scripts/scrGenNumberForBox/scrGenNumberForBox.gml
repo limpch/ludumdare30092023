@@ -8,7 +8,13 @@ function scrGenNumberForBox() {
 	
 		numbersList[randomNumber].getted = true
 		getted++
-	
-		return numbersList[randomNumber].number
+		
+		var finalNumber = numbersList[randomNumber].number
+		var firstNumb = round(random_range(0, 9))
+		
+		if finalNumber < 10 finalNumber = string_concat(firstNumb, "0", finalNumber)
+		else finalNumber = string_concat(firstNumb, finalNumber)
+
+		return finalNumber
 	} else return 0
 }

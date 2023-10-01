@@ -9,5 +9,9 @@ playerAnimation()
 scrCellPlayerIn()
 scrSelectNextCell()
 scrGetUpDownBox()
+scrGetBoxInFromScales()
+
+scrGetSticker()
+scrPutSticker()
 
 scrPushAwayFromTexture()

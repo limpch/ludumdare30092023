@@ -11,4 +11,9 @@ function movementVars() {
 	playerDirectionAngle = 0
 	
 	isStack = false
+	
+	isUnderPrinter = false
+	isUnderScales = false
+	isUnderPC = false
+	isUnderMehs = isUnderScales or isUnderPrinter or isUnderPC
 }

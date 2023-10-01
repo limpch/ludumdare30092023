@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spBox",
-    "path": "sprites/spBox/spBox.yy",
+    "name": "spBoxWithSticker",
+    "path": "sprites/spBoxWithSticker/spBoxWithSticker.yy",
   },
   "spriteMaskId": null,
   "visible": false,
