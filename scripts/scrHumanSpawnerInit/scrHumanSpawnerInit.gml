@@ -1,7 +1,7 @@
 function humanSpawnerInit() {
 	image_speed = 0
-	timeBeforeNewHumanMin = 8 * 60
-	timeBeforeNewHumanMax = 16 * 60
+	timeBeforeNewHumanMin = 7 * 60
+	timeBeforeNewHumanMax = 14 * 60
 	randomize()
 	timeBeforeNewHuman = random_range(timeBeforeNewHumanMin, timeBeforeNewHumanMax)
 	

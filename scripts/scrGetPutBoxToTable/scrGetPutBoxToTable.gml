@@ -7,7 +7,7 @@ function getPutBoxToTable() {
 		obGameLogic.tutorialState = STATE.COMPUTER_NUMBER
 	}
 	
-	if isBoxInHands and isUnderTable and !obTable.isTicket and getUpDownBoxButton {
+	if isBoxInHands and isUnderTable and !obTable.isTicket and getUpDownBoxButton and !obTable.isBox {
 		isBoxInHands = false
 		obTable.boxInstance = boxInstance
 		obTable.isBox = true		

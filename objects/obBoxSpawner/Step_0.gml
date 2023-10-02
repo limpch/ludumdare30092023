@@ -15,18 +15,17 @@ if boxesQueue > 0 and canBeSpawned {
 	scrSpawnBox()
 }
 
+if boxesQueue == 0 {
+	obGameLogicBoxMood.tutorialState = STATE.NONE
+}
 
-if obFinishCheck.hp - boxesQueue == 2 and !canBeSpawned {
+if boxesQueue == 1 and !canBeSpawned {
 	obGameLogicBoxMood.tutorialState = STATE.BOX_MOOD_TWO
 }
-if obFinishCheck.hp - boxesQueue == 1 and !canBeSpawned {
+if boxesQueue == 2 and !canBeSpawned {
 	obGameLogicBoxMood.tutorialState = STATE.BOX_MOOD_THREE
 }
-if obFinishCheck.hp - boxesQueue == 0 and !canBeSpawned {
+if boxesQueue == 3 and !canBeSpawned {
 	obFinishCheck.hp = 0
-}
-if boxesQueue == 0 and canBeSpawned {
-	obGameLogicBoxMood.tutorialState = STATE.NONE
-	
-	obFinishCheck.loseBy = "Many boxes in queue (2 max)"
+	obFinishCheck.loseBy = "Why is it taking you so long to pick up the boxes?"
 }

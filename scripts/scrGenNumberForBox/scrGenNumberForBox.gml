@@ -1,13 +1,13 @@
 function scrGenNumberForBox() {
 	if getted != 16 {
 		randomize()
-		var randomNumber = irandom_range(0, 16)
+		var randomNumber = irandom_range(0, 15)
 		
 		
 		
 		while numbersList[randomNumber].getted != false {
 			randomize()
-			randomNumber = irandom_range(0, 16)
+			randomNumber = irandom_range(0, 15)
 		}
 	
 		numbersList[randomNumber].getted = true
