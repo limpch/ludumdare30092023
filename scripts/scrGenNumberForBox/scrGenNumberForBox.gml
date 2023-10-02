@@ -3,9 +3,11 @@ function scrGenNumberForBox() {
 		randomize()
 		var randomNumber = random_range(0, 15)
 		
+		
+		
 		while numbersList[randomNumber].getted != false {
 			randomize()
-			randomNumber = random_range(0, 15)
+			randomNumber = random_range(0, 16)
 		}
 	
 		numbersList[randomNumber].getted = true
