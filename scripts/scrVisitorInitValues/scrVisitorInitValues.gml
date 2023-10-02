@@ -20,4 +20,12 @@ function visitorInitValues() {
 	isUpset = false
 	
 	waitLevel = 0
+	
+	defaultSprite = noone
+	runSprite = noone
+	
+	canUpBox = false
+	
+	isGetBox = false
+	boxWithSticker = false
 }

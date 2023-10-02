@@ -16,6 +16,5 @@ function movementVars() {
 	isUnderTable = false
 	isUnderMehs = isUnderScales or isUnderPrinter or isUnderPC or isUnderTable
 	
-	
 	isVisitorTicket = false
 }

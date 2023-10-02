@@ -2,9 +2,9 @@ moveBySpeed()
 
 isUpOfTable = place_meeting(x, y + 16, obTable)
 
-putTicket()
-
 getBox()
+
+putTicket()
 
 goAway()
 
@@ -18,3 +18,10 @@ if waitLevel == 3 and !isCanGoAway {
 	isCanGoAway = true
 	isUpset = true
 }
+
+// ANIMATION
+
+if ySpeed != 0 sprite_index = runSprite
+else sprite_index = defaultSprite
+
+depth = -y

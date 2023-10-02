@@ -1,7 +1,13 @@
 function getPutBoxToTable() {
-	if isBoxInHands and instance_exists(obVisitor) and !obVisitor.isUpset and boxInstance.number == obVisitor.boxCode and boxInstance.hasSticker  {
+	if isBoxInHands and instance_exists(obVisitor) and !obVisitor.isUpset and !obTable.isTicket and !obComputer.isTicket and boxInstance.number == obVisitor.boxCode and boxInstance.hasSticker  {
 		obGameLogic.tutorialState = STATE.TABLE_BOX
 	}
+	
+	if  !isBoxInHands and instance_exists(obVisitor) and !obVisitor.isUpset and obComputer.isTicket {
+		obGameLogic.tutorialState = STATE.COMPUTER_NUMBER
+	}
+	
+	show_debug_message(obTable.isTicket)
 	
 	if isBoxInHands and isUnderTable and !obTable.isTicket and getUpDownBoxButton {
 		isBoxInHands = false

@@ -7,5 +7,4 @@ function scrSpawnBox() {
 	array_push(boxes, box)
 	randomize()
 	timeBeforeNewBox = round(random_range(timeBeforeNewBoxMin, timeBeforeNewBoxMax))
-	obFinishCheck.boxToFinish--
 }

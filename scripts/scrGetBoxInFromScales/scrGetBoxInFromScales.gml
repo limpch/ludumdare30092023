@@ -19,4 +19,5 @@ function scrGetBoxInFromScales() {
 			obGameLogicMB2.tutorialState = STATE.NUMBER
 			return
 		}
+
 }

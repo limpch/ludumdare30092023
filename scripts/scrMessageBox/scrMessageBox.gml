@@ -43,9 +43,9 @@ function messageBoxDraw(_messageBox) {
 		}
 		
 		if _messageBox.text != -1 {
-			draw_sprite_stretched(spMessageBox, 0, _nx - 5, _ny + 4, _w * 1.55, _h * 0.5)
+			draw_sprite_stretched(spMessageBox, 0, _nx - 5, _ny + 5, _w * 1.55, _h * 0.5)
 			draw_sprite(spMessageBoxTail, 0, _nx + _w / 2, _ny + _h - 5  - _ys * 2)
-			draw_text(_messageBox.x - 10, _messageBox.y - 10, _messageBox.text)
+			draw_text(_messageBox.x - 10, _messageBox.y - 9, _messageBox.text)
 		}
 	}
 	

@@ -12,6 +12,13 @@ function spawnHumanLogic(){
 
 function spawnHuman(box) {
 	actHuman = instance_create_depth(x, y - 9, -1, obVisitor)
+	
+	randomize()
+	var randomSprite = humanSprites[round(random_range(0, array_length(humanSprites) -1))]
+	
+	actHuman.defaultSprite = randomSprite.defaultSprite
+	actHuman.runSprite = randomSprite.runSprite
+	
 	actHuman.boxCode = box.number
 	image_index = 1
 	alarm[0] = 10

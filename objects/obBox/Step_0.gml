@@ -11,6 +11,6 @@ if recentlyCreated {
 	if timeSinceCreation >= 1 recentlyCreated = false
 }
 
-
-if hasSticker sprite_index = spBoxWithSticker	
+if depricated sprite_index = spBoxDepricated
+else if hasSticker sprite_index = spBoxWithSticker	
 else sprite_index = spBox

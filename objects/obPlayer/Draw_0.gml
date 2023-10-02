@@ -7,7 +7,8 @@ if isBoxInHands {
 
 if isBoxInHands and !instance_exists(bounds) {
 	draw_set_alpha(0.5)
-	if !boxInstance.hasSticker draw_sprite(spBox, 0, nextCellXCenter, nextCellYCenter)
+	if boxInstance.depricated draw_sprite(spBoxDepricated, 0, nextCellXCenter, nextCellYCenter)
+	else if !boxInstance.hasSticker draw_sprite(spBox, 0, nextCellXCenter, nextCellYCenter)
 	else draw_sprite(spBoxWithSticker, 0, nextCellXCenter, nextCellYCenter)
 	draw_set_alpha(1)
 }

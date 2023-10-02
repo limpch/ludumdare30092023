@@ -9,4 +9,19 @@ function humanSpawnerInit() {
 	actHuman = noone
 	
 	alarm[1] = 3 * 60 * 60
+	
+	humanSprites = [
+		{
+			defaultSprite: spVisitor1Stay,
+			runSprite: spVisitor1Run
+		},
+		{
+			defaultSprite: spVisitor2Stay,
+			runSprite: spVisitor2Run
+		},
+		{
+			defaultSprite: spVisitor2Stay,
+			runSprite: spVisitor2Run
+		}
+	]
 }

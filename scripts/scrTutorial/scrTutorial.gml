@@ -103,6 +103,16 @@ function tutorialManager() {
 			tutorialBox.text = -1
 			tutorialBox.withAnim = true
 			break;
+		
+		case STATE.VISITOR_MOOD_ONE:
+			tutorialBox.visible = true
+			tutorialBox.x = obVisitor.x
+			tutorialBox.y = obVisitor.y - 16
+			tutorialBox.sprite = spMoods
+			tutorialBox.image = 0
+			tutorialBox.text = -1
+			tutorialBox.withAnim = true
+			break;
 			
 		case STATE.VISITOR_MOOD_TWO:
 			tutorialBox.visible = true

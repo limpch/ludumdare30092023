@@ -2,14 +2,7 @@
 
 isCanGoAway = true
 
-obBoxSpawner.boxes = array_filter(obBoxSpawner.boxes, function (box) {
-	return obTable.boxInstance.id != box.id
-})
+obFinishCheck.boxToFinish -= 1
 
-if !isUpset {
-	obTable.isBox = false
-	obTable.boxInstance = noone
-} else {
-	obFinishCheck.hp--
-}
+if isUpset obFinishCheck.hp--
 

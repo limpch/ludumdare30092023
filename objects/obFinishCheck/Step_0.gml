@@ -8,3 +8,5 @@ if boxToFinish <= 0 {
 if hp <= 0 {
 	room_goto(rStartGameScreen)
 }
+
+show_debug_message(boxToFinish)

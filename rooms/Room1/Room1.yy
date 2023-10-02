@@ -44,10 +44,10 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6A8DD2AF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obDoor","path":"objects/obDoor/obDoor.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":152.0,"y":64.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"tileWalls","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":12,"SerialiseWidth":20,"TileCompressedData":[
--23,-2147483648,-16,0,-5,-2147483648,-16,0,-3,-2147483648,-6,0,1,63,-9,0,-5,-2147483648,-7,0,
-1,1,-8,0,-4,-2147483648,-5,0,1,9,-9,0,-4,-2147483648,-2,0,1,2,-12,0,
--5,-2147483648,-2,0,1,2,-12,0,-6,-2147483648,2,0,2,-10,0,-8,-2147483648,2,0,2,
--8,0,2,7,0,-9,-2147483648,1,37,-8,39,1,38,-25,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"tsTiles","path":"tilesets/tsTiles/tsTiles.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+-23,-2147483648,-16,0,-5,-2147483648,-16,0,-3,-2147483648,-6,0,1,63,-9,0,-5,-2147483648,-16,0,
+-4,-2147483648,-15,0,-4,-2147483648,-2,0,1,2,-12,0,-5,-2147483648,-2,0,1,2,-12,0,
+-6,-2147483648,2,0,2,-10,0,-8,-2147483648,2,0,2,-8,0,2,7,0,-9,-2147483648,1,
+37,-8,39,1,38,-25,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"tsTiles","path":"tilesets/tsTiles/tsTiles.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Player","depth":300,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7125EA21","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obPlayer","path":"objects/obPlayer/obPlayer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":144.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_31F9B428","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obBoxSpawner","path":"objects/obBoxSpawner/obBoxSpawner.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":248.0,"y":136.0,},
