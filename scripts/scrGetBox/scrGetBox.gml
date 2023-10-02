@@ -21,7 +21,7 @@ function getBox() {
 		obTable.isBox = false
 		obTable.boxInstance = noone
 		
-		if !isUpset obGameLogicVisitorMood.tutorialState = STATE.VISITOR_MOOD_ONE
+		if waitLevel == 0 obGameLogicVisitorMood.tutorialState = STATE.VISITOR_MOOD_ONE
 		
 		return
 	}

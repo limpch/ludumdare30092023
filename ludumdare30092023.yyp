@@ -71,6 +71,7 @@
     {"id":{"name":"sndDoorClose","path":"sounds/sndDoorClose/sndDoorClose.yy",},},
     {"id":{"name":"spBoxShadow","path":"sprites/spBoxShadow/spBoxShadow.yy",},},
     {"id":{"name":"sndDoor","path":"sounds/sndDoor/sndDoor.yy",},},
+    {"id":{"name":"theEndSprite","path":"sprites/theEndSprite/theEndSprite.yy",},},
     {"id":{"name":"scrHumanSpawnerInit","path":"scripts/scrHumanSpawnerInit/scrHumanSpawnerInit.yy",},},
     {"id":{"name":"obTable","path":"objects/obTable/obTable.yy",},},
     {"id":{"name":"spPlayerRun","path":"sprites/spPlayerRun/spPlayerRun.yy",},},

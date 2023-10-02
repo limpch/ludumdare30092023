@@ -32,6 +32,7 @@
     {"name":"obShadows","order":1,"path":"objects/obShadows/obShadows.yy",},
     {"name":"spTable","order":2,"path":"sprites/spTable/spTable.yy",},
     {"name":"spBoxShadow","order":1,"path":"sprites/spBoxShadow/spBoxShadow.yy",},
+    {"name":"theEndSprite","order":1,"path":"sprites/theEndSprite/theEndSprite.yy",},
     {"name":"obTable","order":1,"path":"objects/obTable/obTable.yy",},
     {"name":"scrPutTicket","order":1,"path":"scripts/scrPutTicket/scrPutTicket.yy",},
     {"name":"spBoxDepricated","order":3,"path":"sprites/spBoxDepricated/spBoxDepricated.yy",},

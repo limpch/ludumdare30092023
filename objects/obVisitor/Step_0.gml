@@ -8,6 +8,10 @@ putTicket()
 
 goAway()
 
+if !isPutTicket {
+	if obBoxSpawner.getted == 16 alarm[4] = 5 * 60
+	else alarm[4] = 12 * 60
+}
 
 if waitLevel == 1 and !isCanGoAway
 	obGameLogicVisitorMood.tutorialState = STATE.VISITOR_MOOD_TWO

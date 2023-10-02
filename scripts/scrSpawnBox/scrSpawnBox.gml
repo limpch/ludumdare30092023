@@ -7,5 +7,5 @@ function scrSpawnBox() {
 	array_push(boxes, box)
 	getted += 1
 	randomize()
-	timeBeforeNewBox = round(random_range(timeBeforeNewBoxMin, timeBeforeNewBoxMax))
+	timeBeforeNewBox = irandom_range(timeBeforeNewBoxMin, timeBeforeNewBoxMax)
 }

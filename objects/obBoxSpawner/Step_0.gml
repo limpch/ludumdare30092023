@@ -27,4 +27,6 @@ if obFinishCheck.hp - boxesQueue == 0 and !canBeSpawned {
 }
 if boxesQueue == 0 and canBeSpawned {
 	obGameLogicBoxMood.tutorialState = STATE.NONE
+	
+	obFinishCheck.loseBy = "Many boxes in queue (2 max)"
 }
