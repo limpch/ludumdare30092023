@@ -10,6 +10,7 @@ enum CUTSCENE {
 	BREAKFAST,
 	DOORCLOSE,
 	RIDE,
+	DEPOT,
 	END
 }
 
