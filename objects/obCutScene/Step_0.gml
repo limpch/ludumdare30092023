@@ -70,7 +70,7 @@ if currentScene == CUTSCENE.BREAKFAST {
 if currentScene == CUTSCENE.DOORCLOSE {
 	sceneTimer++
 	if sceneTimer == 180 {
-		currentScene = CUTSCENE.END
+		currentScene = CUTSCENE.RIDE
 		sceneTimer = 0
 	}
 }

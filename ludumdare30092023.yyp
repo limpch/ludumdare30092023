@@ -33,6 +33,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"another","folderPath":"folders/Sprites/another.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Boxes","folderPath":"folders/Sprites/Boxes.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"CutScenes","folderPath":"folders/Sprites/CutScenes.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"gameObjects","folderPath":"folders/Sprites/gameObjects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Icons","folderPath":"folders/Sprites/Icons.yy",},
@@ -40,13 +41,12 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Visitors","folderPath":"folders/Sprites/Visitors.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Boxes","folderPath":"folders/Sprites/Boxes.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.1.102",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"obCutScene","path":"objects/obCutScene/obCutScene.yy",},},
@@ -168,7 +168,6 @@
     {"roomId":{"name":"rStartGameScreen","path":"rooms/rStartGameScreen/rStartGameScreen.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
-  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],
