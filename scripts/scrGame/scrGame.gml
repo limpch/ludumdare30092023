@@ -17,4 +17,7 @@ function boxSpawnerInit() {
 	}
 		
 	boxes = []
+	
+	canBeSpawned = true
+	isOutOfArray = false
 }

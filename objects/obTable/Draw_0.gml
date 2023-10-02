@@ -11,5 +11,3 @@ if isBox {
 	if boxInstance.hasSticker draw_sprite(spBoxWithSticker, 0, x, y)
 	else draw_sprite(spBox, 0, x, y)
 }
-
-

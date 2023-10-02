@@ -10,6 +10,8 @@ function getPutBoxToTable() {
 		obGameLogicMB2.tutorialState = STATE.NONE
 		obGameLogic.tutorialState = STATE.NONE
 		obComputer.isTicket = false
+		
+		return
 	}
 	
 	if !isBoxInHands and obTable.boxInstance != noone and isUnderTable and getUpDownBoxButton {
@@ -19,7 +21,7 @@ function getPutBoxToTable() {
 		obTable.isBox = false
 		obTable.boxInstance = noone
 		
-		obGameLogicMB2.tutorialState = STATE.NUMBER
+		if boxInstance.hasSticker obGameLogicMB2.tutorialState = STATE.NUMBER
 		
 		if instance_exists(obVisitor) and boxInstance.number == obVisitor.boxCode boxInstance.depricated = true
 	}

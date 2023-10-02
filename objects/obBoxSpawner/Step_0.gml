@@ -1,16 +1,19 @@
 
-var canBeSpawned = !place_meeting(x - 16, y, obBox) and array_length(boxes) < 18
+canBeSpawned = !place_meeting(x - 16, y, obBox)
+isOutOfArray = array_length(boxes) >= 12
 
 if timeBeforeNewBox > 0 timeBeforeNewBox-- else {
-	if canBeSpawned scrSpawnBox()
-	else scrBoxesMood()
+	if canBeSpawned and !isOutOfArray scrSpawnBox()
+	if !canBeSpawned and !isOutOfArray scrBoxesMood()
+	if !isOutOfArray and !isOutOfArray {
+		timeBeforeNewBox = random_range(timeBeforeNewBoxMin, timeBeforeNewBoxMax)
+	}
 }
 
 if boxesQueue > 0 and canBeSpawned {
 	boxesQueue--
 	scrSpawnBox()
 }
-
 
 
 if obFinishCheck.hp - boxesQueue == 2 and !canBeSpawned {
@@ -25,4 +28,3 @@ if obFinishCheck.hp - boxesQueue == 0 and !canBeSpawned {
 if boxesQueue == 0 and canBeSpawned {
 	obGameLogicBoxMood.tutorialState = STATE.NONE
 }
-
