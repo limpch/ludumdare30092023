@@ -8,8 +8,11 @@ function scrGetUpDownBox() {
 	
 	if !instance_exists(boxInstance) and !isBoxInHands {
 		var nearestBoxInstance = instance_nearest(x, y, obBox)
-		if instance_exists(nearestBoxInstance) and distance_to_object(nearestBoxInstance) < 16 {
-			boxInstance = nearestBoxInstance
+		if instance_exists(nearestBoxInstance) and distance_to_object(nearestBoxInstance) < 8 {
+			var boxDirection = point_direction(x, y, nearestBoxInstance.x, nearestBoxInstance.y)
+			if abs(boxDirection - watchDirection) < 30 {
+				boxInstance = nearestBoxInstance
+			}
 		}
 	}
 	
