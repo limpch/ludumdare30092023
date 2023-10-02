@@ -1,0 +1,1 @@
+obTable.isTicket = true

@@ -1,8 +1,6 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function boxSpawnerInit() {
-	timeBeforeNewBoxMin = 600
-	timeBeforeNewBoxMax = 1500
+	timeBeforeNewBoxMin = 5 * 60
+	timeBeforeNewBoxMax = 15 * 60
 	timeBeforeNewBox = 180
 	
 	boxesQueue = 0

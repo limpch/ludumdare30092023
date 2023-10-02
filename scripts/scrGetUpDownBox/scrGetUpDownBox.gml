@@ -2,11 +2,6 @@ function scrGetUpDownBox() {
 	nextCellXCenter = nextCellX + 8 
 	nextCellYCenter = nextCellY + 8
 	
-	isUnderPrinter = place_meeting(x, y - 16, obPrinter) and topButton
-	isUnderScales = place_meeting(x, y - 16, obScales) and topButton
-	isUnderPC = place_meeting(x, y - 16, obComputer) and topButton
-	isUnderMehs = isUnderPrinter or isUnderScales or isUnderPC
-	
 	if isStickerInHands == true return -1
 	
 	if !isBoxInHands boxInstance = instance_place(nextCellXCenter, nextCellYCenter, obBox)
@@ -27,10 +22,10 @@ function scrGetUpDownBox() {
 			instance_deactivate_object(boxInstance)
 			isBoxInHands = true
 			
-			if boxInstance.hasSticker obGameLogic.tutorialState = STATE.NUMBER
+			if boxInstance.hasSticker obGameLogicMB2.tutorialState = STATE.NUMBER
 			
 			if !boxInstance.hasSticker and obScales.currentBox < 0 {
-				obGameLogic.tutorialState = STATE.SCALES
+				obGameLogicMB2.tutorialState = STATE.SCALES
 			}
 			
 			return
@@ -45,7 +40,7 @@ function scrGetUpDownBox() {
 		}
 		
 		if !instance_exists(bounds) and !isUnderMehs and getUpDownBoxButton {
-			obGameLogic.tutorialState = STATE.NONE
+			obGameLogicMB2.tutorialState = STATE.NONE
 			instance_activate_object(boxInstance)
 			
 			boxInstance.x = nextCellXCenter

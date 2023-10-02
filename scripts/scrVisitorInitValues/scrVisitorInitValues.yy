@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "HumanSpawner",
-    "path": "folders/Scripts/HumanSpawner.yy",
+    "name": "Visitors",
+    "path": "folders/Scripts/Visitors.yy",
   },
 }

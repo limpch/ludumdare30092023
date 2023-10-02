@@ -7,7 +7,7 @@ if creatingSticker {
 		creatingSticker = false
 		animationSpeed = 60
 		image_speed = 0
-		obGameLogic.tutorialState = STATE.STICKER
+		obGameLogicMB2.tutorialState = STATE.STICKER
 	}
 }
 

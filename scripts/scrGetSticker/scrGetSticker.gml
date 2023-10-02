@@ -3,6 +3,6 @@ function scrGetSticker() {
 		isStickerInHands = true
 		obPrinter.hasSticker = false
 		
-		obGameLogic.tutorialState = STATE.PLAYER_STICKER
+		obGameLogicMB2.tutorialState = STATE.PLAYER_STICKER
 	}
 }

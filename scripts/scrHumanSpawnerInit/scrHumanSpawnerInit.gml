@@ -1,8 +1,7 @@
 function humanSpawnerInit() {
-	timeBeforeNewHumanMin = 600
-	timeBeforeNewHumanMax = 2400
-	//timeBeforeNewHuman = random_range(timeBeforeNewHumanMin, timeBeforeNewHumanMax)
-	timeBeforeNewHuman = 60
+	timeBeforeNewHumanMin = 10 * 60
+	timeBeforeNewHumanMax = 20 * 60
+	timeBeforeNewHuman = random_range(timeBeforeNewHumanMin, timeBeforeNewHumanMax)
 	
 	humansQueueCount = 0
 	actHuman = noone
