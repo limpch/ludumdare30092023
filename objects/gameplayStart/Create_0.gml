@@ -1,0 +1,1 @@
+sceneTimer = 60

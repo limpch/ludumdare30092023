@@ -8,6 +8,7 @@ putTicket()
 
 goAway()
 
+
 if waitLevel == 1 and !isCanGoAway
 	obGameLogicVisitorMood.tutorialState = STATE.VISITOR_MOOD_TWO
 

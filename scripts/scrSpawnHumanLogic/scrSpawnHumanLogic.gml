@@ -1,4 +1,10 @@
 function spawnHumanLogic(){
+	
+	if obBoxSpawner.getted == 15 {
+		timeBeforeNewHumanMin = 6 * 60
+		timeBeforeNewHumanMax = 12 * 60
+	}
+	
 	if timeBeforeNewHuman > 0 timeBeforeNewHuman--
 	else {
 		if array_length(obBoxSpawner.boxes) > 0 {
@@ -20,6 +26,9 @@ function spawnHuman(box) {
 	actHuman.runSprite = randomSprite.runSprite
 	
 	actHuman.boxCode = box.number
+	audio_play_sound(sndDoorBell, 1, 0)
+	audio_play_sound(sndDoor, 1, 0)
+	
 	image_index = 1
 	alarm[0] = 10
 }
