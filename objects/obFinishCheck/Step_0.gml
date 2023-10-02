@@ -24,7 +24,22 @@ if isGameEnd {
 		
 		overallPoints = (visitorsHappy * 1) + (
 		visitorsSad * .5) + (visitorsRage * 0) + (visitorsDoesntGetBox * - 2) + 4
-		stars = 4//round(overallPoints / 4)
+		stars = round(overallPoints / 4)
+		
+		if 5 - stars == 0 {
+			reviewIndexesMin = 6
+			reviewIndexesMax = 9	
+		} else if 5 - stars == 4 {
+			reviewIndexesMin = 0
+			reviewIndexesMax = 3
+		} else {
+			reviewIndexesMin = (stars * 2) - 2
+			reviewIndexesMax = (stars * 2 - 1) + 2
+		}
+		
+		reviewIndex = irandom_range(reviewIndexesMin, reviewIndexesMax)
+		show_debug_message(reviewIndex)
+		
 		alarm[2] = 60
 	}
 	
