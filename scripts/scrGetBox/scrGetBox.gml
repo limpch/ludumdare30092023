@@ -37,6 +37,9 @@ function getBox() {
 				
 			return box
 		})
+		obBoxSpawner.boxes = array_filter(obBoxSpawner.boxes, function (box) {
+			return obTable.boxInstance.id != box.id
+		})
 	}
 	
 }
