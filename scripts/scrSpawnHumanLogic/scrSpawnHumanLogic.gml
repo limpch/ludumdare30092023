@@ -1,4 +1,10 @@
 function spawnHumanLogic(){
+	
+	if obBoxSpawner.getted == 15 {
+		timeBeforeNewHumanMin = 6 * 60
+		timeBeforeNewHumanMax = 12 * 60
+	}
+	
 	if timeBeforeNewHuman > 0 timeBeforeNewHuman--
 	else {
 		if array_length(obBoxSpawner.boxes) > 0 {

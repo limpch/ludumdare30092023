@@ -5,6 +5,7 @@ function scrSpawnBox() {
 	box.timeSinceCreation = 0
 	box.number = scrGenNumberForBox()
 	array_push(boxes, box)
+	getted += 1
 	randomize()
 	timeBeforeNewBox = round(random_range(timeBeforeNewBoxMin, timeBeforeNewBoxMax))
 }

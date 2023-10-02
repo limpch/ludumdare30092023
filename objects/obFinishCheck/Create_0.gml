@@ -1,4 +1,4 @@
-boxToFinish = 24
+boxToFinish = 16
 hp = 3
 
 

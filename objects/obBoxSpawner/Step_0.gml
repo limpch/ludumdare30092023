@@ -1,6 +1,6 @@
 
 canBeSpawned = !place_meeting(x - 16, y, obBox)
-isOutOfArray = array_length(boxes) >= 12
+isOutOfArray = array_length(boxes) >= 12 or getted == 16
 
 if timeBeforeNewBox > 0 timeBeforeNewBox-- else {
 	if canBeSpawned and !isOutOfArray scrSpawnBox()

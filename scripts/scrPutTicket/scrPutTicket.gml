@@ -3,8 +3,9 @@ function putTicket() {
 	
 	if !isPutTicket and isUpOfTable and !canUpBox and !isSeeBox {
 		isPutTicket = true
-		alarm[4] = 10 * 60
-		alarm[0] = 30
+		if obBoxSpawner.getted == 15 alarm[4] = 10 * 60
+		else alarm[4] = 12 * 60
+		alarm[0] = 30	
 	}
 		
 }

@@ -11,8 +11,4 @@ for(var i = 0; i < 8; i++) {
 for(var i = 0; i < 8; i++) {
 	draw_text(x + 4 + 16 * i, y + 16, "1" + string(i + 1))
 }
-
-for(var i = 0; i < 8; i++) {
-	draw_text(x + 4 + 16 * i, y + 32, "2" + string(i + 1))
-}
 draw_set_alpha(1)
