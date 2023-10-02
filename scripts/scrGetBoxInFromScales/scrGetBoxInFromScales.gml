@@ -4,7 +4,7 @@ function scrGetBoxInFromScales() {
 		obScales.currentBox = boxInstance
 		
 		isBoxInHands = false
-		obGameLogic.tutorialState = STATE.NONE
+		obGameLogicMB2.tutorialState = STATE.NONE
 		return
 	}
 
@@ -16,7 +16,7 @@ function scrGetBoxInFromScales() {
 			boxInstance = obScales.currentBox
 			obScales.currentBox = noone
 			isBoxInHands = true
-			obGameLogic.tutorialState = STATE.NUMBER
+			obGameLogicMB2.tutorialState = STATE.NUMBER
 			return
 		}
 }

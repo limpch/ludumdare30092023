@@ -12,7 +12,7 @@ if creatingSticker {
 		animationSpeed = 60
 		isSoundPlayed = false
 		image_speed = 0
-		obGameLogic.tutorialState = STATE.STICKER
+		obGameLogicMB2.tutorialState = STATE.STICKER
 	}
 }
 

@@ -1,4 +1,4 @@
-function messageBox(_x, _y, _sprite = -1, _text = -1, _withAnim = true) constructor {
+function messageBox(_x, _y, _sprite = -1, _text = -1, _withAnim = true, _image = 0) constructor {
 	x = _x
 	y = _y
 	
@@ -7,6 +7,7 @@ function messageBox(_x, _y, _sprite = -1, _text = -1, _withAnim = true) construc
 	withAnim = _withAnim
 	
 	sprite = _sprite
+	image = _image
 	text = _text
 	visible = true
 }
@@ -37,7 +38,7 @@ function messageBoxDraw(_messageBox) {
 		if _messageBox.sprite != -1 {
 			draw_sprite_stretched(spMessageBox, 0, _nx, _ny - _ys * 2, _w, _h)
 			draw_sprite(spMessageBoxTail, 0, _nx + _w / 2, _ny + _h - 2  - _ys * 2)
-			draw_sprite_ext(_messageBox.sprite, 0, _messageBox.x, _messageBox.y - 2, _xs, _ys, 0, c_white, 1)
+			draw_sprite_ext(_messageBox.sprite, _messageBox.image, _messageBox.x, _messageBox.y - 2, _xs, _ys, 0, c_white, 1)
 			return
 		}
 		

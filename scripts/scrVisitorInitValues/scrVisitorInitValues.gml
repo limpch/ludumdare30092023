@@ -8,4 +8,16 @@ function visitorInitValues() {
 	
 	xFrac = 0
 	yFrac = 0
+	
+	isUpOfTable = false
+	isPutTicket = false
+	
+	isSeeBox = false
+	
+	isCanGoAway = false
+	isGoAway = false
+	
+	isUpset = false
+	
+	waitLevel = 0
 }

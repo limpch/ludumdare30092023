@@ -7,3 +7,4 @@ timeSinceCreation = 1
 beenHeld = false
 hasSticker = false
 number = ""
+depricated = false
