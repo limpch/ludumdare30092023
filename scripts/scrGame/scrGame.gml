@@ -1,6 +1,6 @@
 function boxSpawnerInit() {
-	timeBeforeNewBoxMin = 2 * 60
-	timeBeforeNewBoxMax = 10 * 60
+	timeBeforeNewBoxMin = 4 * 60
+	timeBeforeNewBoxMax = 8 * 60
 	timeBeforeNewBox = 180
 	
 	boxesQueue = 0

@@ -14,7 +14,7 @@ function scrGenNumberForBox() {
 		
 		var finalNumber = numbersList[randomNumber].number
 		randomize()
-		var firstNumb = randomirandom_range
+		var firstNumb = irandom_range(0, 9)
 		
 		if finalNumber < 10 finalNumber = string_concat(firstNumb, "0", finalNumber)
 		else finalNumber = string_concat(firstNumb, finalNumber)
