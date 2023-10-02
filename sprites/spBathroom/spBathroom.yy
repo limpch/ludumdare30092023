@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spBathroom_strip2",
+  "name": "spBathroom",
   "bbox_bottom": 191,
   "bbox_left": 0,
   "bbox_right": 319,
@@ -33,7 +33,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spBathroom_strip2",
+    "name": "spBathroom",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -55,8 +55,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"eeae0ca2-8e49-4018-9083-1230a732d156","path":"sprites/spBathroom_strip2/spBathroom_strip2.yy",},},},"Disabled":false,"id":"52433be1-57b7-4bc5-8720-a4a2c62a0051","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f619d86c-dbf9-4364-8472-2515ae4c2d00","path":"sprites/spBathroom_strip2/spBathroom_strip2.yy",},},},"Disabled":false,"id":"bc93d576-e4f5-465e-a2e7-67773e988cfb","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"eeae0ca2-8e49-4018-9083-1230a732d156","path":"sprites/spBathroom/spBathroom.yy",},},},"Disabled":false,"id":"52433be1-57b7-4bc5-8720-a4a2c62a0051","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f619d86c-dbf9-4364-8472-2515ae4c2d00","path":"sprites/spBathroom/spBathroom.yy",},},},"Disabled":false,"id":"bc93d576-e4f5-465e-a2e7-67773e988cfb","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
