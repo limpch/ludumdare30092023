@@ -72,6 +72,25 @@ if currentScene == CUTSCENE.DOORCLOSE {
 	if sceneTimer == 180 {
 		currentScene = CUTSCENE.RIDE
 		sceneTimer = 0
+		audio_stop_sound(sndDoorClose)
+		audio_play_sound(sndBycicle, 0, 0)
+	}
+}
+
+if currentScene == CUTSCENE.RIDE {
+	sceneTimer++
+	if sceneTimer == 320 {
+		currentScene = CUTSCENE.DEPOT
+		audio_play_sound(sndAmbient, 0, 0)
+		sceneTimer = 0
+	}
+}
+
+if currentScene == CUTSCENE.DEPOT {
+	sceneTimer++
+	if sceneTimer == 320 {
+		currentScene = CUTSCENE.END
+		sceneTimer = 0
 	}
 }
 
