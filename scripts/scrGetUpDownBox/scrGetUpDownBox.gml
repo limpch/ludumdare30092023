@@ -27,7 +27,7 @@ function scrGetUpDownBox() {
 			if !boxInstance.hasSticker and obScales.currentBox < 0 {
 				obGameLogicMB2.tutorialState = STATE.SCALES
 			}
-			
+			audio_play_sound(sndBoxPut, 1, 0)
 			return
 		}
 	}
@@ -50,7 +50,7 @@ function scrGetUpDownBox() {
 			if obGameLogic.tutorialState == STATE.SCALES {
 				obGameLogic.tutorialState = STATE.NONE
 			}
-			
+			audio_play_sound(sndBoxPut, 1, 0)
 			return
 		}
 	}

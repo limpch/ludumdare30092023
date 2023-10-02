@@ -5,6 +5,7 @@ function scrGetBoxInFromScales() {
 		
 		isBoxInHands = false
 		obGameLogicMB2.tutorialState = STATE.NONE
+		audio_play_sound(sndBoxPut, 1, 0)
 		return
 	}
 
@@ -17,6 +18,7 @@ function scrGetBoxInFromScales() {
 			obScales.currentBox = noone
 			isBoxInHands = true
 			obGameLogicMB2.tutorialState = STATE.NUMBER
+			audio_play_sound(sndBoxPut, 1, 0)
 			return
 		}
 

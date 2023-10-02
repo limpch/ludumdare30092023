@@ -7,8 +7,6 @@ function getPutBoxToTable() {
 		obGameLogic.tutorialState = STATE.COMPUTER_NUMBER
 	}
 	
-	show_debug_message(obTable.isTicket)
-	
 	if isBoxInHands and isUnderTable and !obTable.isTicket and getUpDownBoxButton {
 		isBoxInHands = false
 		obTable.boxInstance = boxInstance
@@ -16,7 +14,7 @@ function getPutBoxToTable() {
 		obGameLogicMB2.tutorialState = STATE.NONE
 		obGameLogic.tutorialState = STATE.NONE
 		obComputer.isTicket = false
-		
+		audio_play_sound(sndBoxPut, 1, 0)
 		return
 	}
 	
@@ -30,5 +28,7 @@ function getPutBoxToTable() {
 		if boxInstance.hasSticker obGameLogicMB2.tutorialState = STATE.NUMBER
 		
 		if instance_exists(obVisitor) and boxInstance.number == obVisitor.boxCode boxInstance.depricated = true
+		
+		audio_play_sound(sndBoxPut, 1, 0)
 	}
 }

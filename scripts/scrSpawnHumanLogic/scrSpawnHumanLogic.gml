@@ -20,6 +20,9 @@ function spawnHuman(box) {
 	actHuman.runSprite = randomSprite.runSprite
 	
 	actHuman.boxCode = box.number
+	audio_play_sound(sndDoorBell, 1, 0)
+	audio_play_sound(sndDoor, 1, 0)
+	
 	image_index = 1
 	alarm[0] = 10
 }
